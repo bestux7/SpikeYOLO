@@ -10,8 +10,8 @@ from tqdm import tqdm
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--json_path', default='./coco_yolo/annotations/instances_train2017.json', type=str, help="input: coco format(json)")
-parser.add_argument('--save_path', default='./coco_yolo/train2017', type=str, help="specify where to save the output dir of labels")
+parser.add_argument('--json_path', default='./dataset/DUO/annotations/instances_test.json', type=str, help="input: coco format(json)")
+parser.add_argument('--save_path', default='./dataset/DUO_yolo/test', type=str, help="specify where to save the output dir of labels")
 arg = parser.parse_args()
 
 
